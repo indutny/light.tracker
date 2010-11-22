@@ -4,7 +4,7 @@
   "dependencies"  : {
     "cradle": ">=0.2.3",
     "vows": ">=0.5.2",
-    "connect': ">=0.3.0"
+    "connect": ">=0.3.0"
   },
   "version"       : "0.1.0",
   "engines"       : { "node": ">=0.3.1" }
