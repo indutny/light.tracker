@@ -5,16 +5,15 @@ var tracker = require('./lib/tracker');
 
 tracker({
   server: {
-    port: 80,
-    host: 'localhost'
+    port: 8081
   },
   db: {
     port: 5984,
-    host: 'localhost',
+    host: 'indutny.couchone.com',
     database: 'tracker',
     auth: {
-      user: 'tracker',
-      pass: 'tracker'
+      user: 'admin',
+      pass: 'admin'
     },
     setup: true
   }
