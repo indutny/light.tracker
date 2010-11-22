@@ -1,0 +1,3 @@
+[submodule "support/cradle"]
+	path = support/cradle
+	url = git://github.com/cloudhead/cradle.git
