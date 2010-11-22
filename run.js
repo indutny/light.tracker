@@ -9,7 +9,7 @@ tracker({
   },
   db: {
     port: 5984,
-    host: 'indutny.couchone.com',
+    host: 'localhost',
     database: 'tracker',
     auth: {
       user: 'admin',
