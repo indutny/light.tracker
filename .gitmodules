@@ -1,3 +1,6 @@
 [submodule "support/cradle"]
 	path = support/cradle
 	url = git://github.com/cloudhead/cradle.git
+[submodule "support/mongoose"]
+	path = support/mongoose
+	url = http://github.com/LearnBoost/mongoose.git
