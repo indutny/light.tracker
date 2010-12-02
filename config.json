@@ -1,9 +1,4 @@
-/**
-* Pseudo-cli
-*/
-var tracker = require('./lib/tracker');
-
-tracker({
+{
   "server": {
     "port": 8081
   },
@@ -19,4 +14,4 @@ tracker({
     "engine": "mongo",
     "mongo_url": "mongodb://localhost/tracker"
   }
-});
+}
