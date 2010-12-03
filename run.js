@@ -17,6 +17,6 @@ tracker({
     },
     "setup": true,
     "engine": "mongo",
-    "mongo_url": "mongodb://localhost/tracker"
+    "mongo_url": "mongodb://test:test@flame.mongohq.com:27068/tracker"
   }
 });
