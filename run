@@ -4,9 +4,10 @@
 * Pseudo-cli
 */
 var tracker = require('./lib/tracker'),
+    fs = require('fs'),
     argv = require('optimist')
               .usage('Usage: $0 --config config.json')
-              .demand('config')
+              .demand(['config'])
               .argv;
 
-tracker(JSON.parse(fs.readFileSync(argv.config)));
+tracker(JSON.parse(fs.readFileSync('./' + (argv.config))));
