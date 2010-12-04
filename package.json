@@ -6,7 +6,8 @@
     "vows": ">=0.5.2",
     "connect": ">=0.3.0",
     "mongoose": ">=0.0.3",
-    "optimist": ">=0.1.1"
+    "optimist": ">=0.1.1",
+    "lru-cache": ">=1.0.2"
   },
   "version"       : "0.1.0",
   "engines"       : { "node": ">=0.3.1" }
